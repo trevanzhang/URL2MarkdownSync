@@ -1,0 +1,178 @@
+# ============================ #
+#        操作系统生成文件         #
+# ============================ #
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs*.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.trash-*
+*.swp
+*.swo
+
+
+# ============================ #
+#        开发工具/IDE           #
+# ============================ #
+
+# JetBrains全家桶 (IntelliJ/WebStorm等)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+
+# ============================ #
+#        编程语言相关           #
+# ============================ #
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.jsp
+*.gwt.xml
+.gwt/
+target/
+
+# C/C++
+*.o
+*.ko
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.a
+*.pdb
+*.idb
+*.pch
+
+
+# ============================ #
+#        框架相关               #
+# ============================ #
+
+# Flask
+instance/
+
+# Django
+*.sqlite3
+*.log
+media/
+staticfiles/
+
+# React/Vue
+dist/
+build/
+.cache/
+.temp/
+
+
+# ============================ #
+#        通用开发文件           #
+# ============================ #
+
+# 日志文件
+*.log
+*.logs
+logs/
+
+# 测试相关
+coverage/
+.nyc_output/
+test-results/
+
+# 本地环境配置
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 敏感文件
+*.pem
+*.key
+*.crt
+*.cert
+*.pub
+*.pgp
+*.gpg
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.7z
+
+# 包管理器锁文件
+# 根据项目需要选择是否提交
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
+
+# ============================ #
+#        其他                   #
+# ============================ #
+
+# 本地调试文件
+debug/
+tmp/
+temp/
+
+# 文档生成
+docs/_build/
+_site/
+obsidian/

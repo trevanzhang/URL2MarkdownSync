@@ -1,0 +1,17 @@
+[project]
+name = "URL2MarkdownSync"
+version = "0.1.0"
+description = "这是一个基于 Flask 的 Python 应用程序，用于接收笔记内容并通过 WebDAV 协议将其保存到远程存储中。支持从 URL 获取笔记内容并转换为 Markdown 格式，同时可以将笔记文件上传至指定的 WebDAV 路径。"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "flask>=3.1.0",
+    "requests>=2.32.3",
+    "webdav4>=0.10.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
