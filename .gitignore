@@ -176,3 +176,4 @@ temp/
 docs/_build/
 _site/
 obsidian/
+.python-version

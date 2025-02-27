@@ -1,4 +1,4 @@
-# URL2Markdown WebDAV Note Handler
+# URL2MarkdownSync
 
 ## 项目简介
 
